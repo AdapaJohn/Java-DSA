@@ -1,0 +1,29 @@
+Methods:
+It is a collection of statements that perform some specific task and return the result to the caller.
+
+SYNTAX:
+<access.modifier> <returnType> <method_name>(list of parameters){
+    //Body
+}
+
+Advantages:
+-code reusability
+-code optimization
+
+Types of Methods:
+1.Predefined Methods(Standard library methods)
+2.userDefined method
+
+Two ways to create a method: 
+1.Instance method 
+ex: void run(){
+    //body
+}
+2.Static method
+ex: static void run(){
+    //body
+}
+
+
+METHOD MEMORY ALLOCATION FOR CALLS:
+It is implemented through a stack.It is a created within the stack area and after that,the arguments passed to and local variables and value to be returned by this called method are stored in this stack frame and when exception of the called method is finished,the allocated stack frame would be deleted.there is a stack pointer registers that tracks the top of the stack which is adjusted accordingly.
