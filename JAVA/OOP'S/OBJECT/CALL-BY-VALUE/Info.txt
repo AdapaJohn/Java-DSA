@@ -1,0 +1,1 @@
+If we call a method passing a value it is known as CALL-BY-VALUE.The changes being done in called method is not affected is not affected in calling method.
