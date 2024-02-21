@@ -1,1 +1,8 @@
+The Final keyword in java is used to restrict the user.The java final keyword can be used in many context.Final can be:
+1.Variable
+2.Method
+3.Class
 
+FINAL VARIABLE : To Create constant Variables (or) stop value change
+FINAL METHOD : Prevents method overriding
+FINAL CLASSES : Prevents Inheritance
